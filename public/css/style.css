@@ -1,0 +1,31 @@
+body{
+    background-color: rgb(125, 219, 219);
+    color: #333333;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    max-width: 650px;
+    margin: 0 100;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+header {
+    background-color: beige;
+    padding: 20px;
+    margin: 12px;
+}
+
+.main-content{
+    flex-grow: 1;
+}
+
+footer {
+    color: rgb(42, 47, 52);
+    background-color: rgb(110, 84, 147);
+    font-size: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px;
+    margin: 12px;
+    border-bottom: 3px dotted palevioletred;
+
+}
